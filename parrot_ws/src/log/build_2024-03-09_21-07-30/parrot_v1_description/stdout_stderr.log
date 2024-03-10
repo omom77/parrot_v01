@@ -1,0 +1,40 @@
+-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/om/parrot_ws/src/build/parrot_v1_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//urdf/parrot_v1_main.urdf
+-- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//meshes/ImageToStl.com_base_parrot.dae
+-- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//meshes/base_parrot (1).dae
+-- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//meshes/base_parrot.dae
+-- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//meshes/gripper_dynamic_parrot.dae
+-- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//meshes/gripper_static_parrot.dae
+-- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//meshes/joint_1_parrot.dae
+-- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//meshes/joint_2_parrot.dae
+-- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//meshes/joint_3_parrot.dae
+-- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//meshes/joint_4_parrot.dae
+-- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//meshes/parrot_test.dae
+-- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//meshes/stl_parrot/base_parrot.stl
+-- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//meshes/stl_parrot/gripper_dynamic_parrot.stl
+-- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//meshes/stl_parrot/gripper_static_parrot.stl
+-- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//meshes/stl_parrot/joint_1_parrot.stl
+-- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//meshes/stl_parrot/joint_2_parrot.stl
+-- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//meshes/stl_parrot/joint_3_parrot.stl
+-- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//meshes/stl_parrot/joint_4_parrot.stl
+-- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_description/share/ament_index/resource_index/package_run_dependencies/parrot_v1_description
+-- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_description/share/ament_index/resource_index/parent_prefix_path/parrot_v1_description
+-- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description/environment/path.sh
+-- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description/environment/path.dsv
+-- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description/local_setup.bash
+-- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description/local_setup.sh
+-- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description/local_setup.zsh
+-- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description/local_setup.dsv
+-- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description/package.dsv
+-- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_description/share/ament_index/resource_index/packages/parrot_v1_description
+-- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description/cmake/parrot_v1_descriptionConfig.cmake
+-- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description/cmake/parrot_v1_descriptionConfig-version.cmake
+-- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description/package.xml

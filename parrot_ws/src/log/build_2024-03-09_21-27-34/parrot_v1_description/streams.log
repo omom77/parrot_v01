@@ -1,0 +1,39 @@
+[0.086s] Invoking command in '/home/om/parrot_ws/src/build/parrot_v1_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/ros2_ws/install/turtlesim_catch_them_all:/home/om/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/om/parrot_ws/src/build/parrot_v1_description -- -j16 -l16
+[0.120s] Invoked command in '/home/om/parrot_ws/src/build/parrot_v1_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/ros2_ws/install/turtlesim_catch_them_all:/home/om/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/om/parrot_ws/src/build/parrot_v1_description -- -j16 -l16
+[0.149s] Invoking command in '/home/om/parrot_ws/src/build/parrot_v1_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/ros2_ws/install/turtlesim_catch_them_all:/home/om/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/om/parrot_ws/src/build/parrot_v1_description
+[0.155s] -- Install configuration: ""
+[0.156s] -- Execute custom install script
+[0.156s] -- Up-to-date symlink: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//urdf/parrot_v1_main.urdf.xacro
+[0.156s] -- Up-to-date symlink: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//meshes/ImageToStl.com_base_parrot.dae
+[0.157s] -- Up-to-date symlink: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//meshes/base_parrot (1).dae
+[0.157s] -- Up-to-date symlink: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//meshes/base_parrot.DAE
+[0.157s] -- Up-to-date symlink: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//meshes/gripper_dynamic_parrot.dae
+[0.157s] -- Up-to-date symlink: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//meshes/gripper_static_parrot.dae
+[0.157s] -- Up-to-date symlink: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//meshes/joint_1_parrot.dae
+[0.157s] -- Up-to-date symlink: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//meshes/joint_2_parrot.dae
+[0.157s] -- Up-to-date symlink: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//meshes/joint_3_parrot.dae
+[0.157s] -- Up-to-date symlink: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//meshes/joint_4_parrot.dae
+[0.157s] -- Up-to-date symlink: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//meshes/parrot_test.dae
+[0.157s] -- Up-to-date symlink: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//meshes/stl_parrot/base_parrot.stl
+[0.157s] -- Up-to-date symlink: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//meshes/stl_parrot/gripper_dynamic_parrot.stl
+[0.157s] -- Up-to-date symlink: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//meshes/stl_parrot/gripper_static_parrot.stl
+[0.157s] -- Up-to-date symlink: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//meshes/stl_parrot/joint_1_parrot.stl
+[0.158s] -- Up-to-date symlink: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//meshes/stl_parrot/joint_2_parrot.stl
+[0.158s] -- Up-to-date symlink: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//meshes/stl_parrot/joint_3_parrot.stl
+[0.158s] -- Up-to-date symlink: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//meshes/stl_parrot/joint_4_parrot.stl
+[0.158s] -- Up-to-date symlink: /home/om/parrot_ws/src/install/parrot_v1_description/share/ament_index/resource_index/package_run_dependencies/parrot_v1_description
+[0.158s] -- Up-to-date symlink: /home/om/parrot_ws/src/install/parrot_v1_description/share/ament_index/resource_index/parent_prefix_path/parrot_v1_description
+[0.158s] -- Up-to-date symlink: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description/environment/ament_prefix_path.sh
+[0.158s] -- Up-to-date symlink: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description/environment/ament_prefix_path.dsv
+[0.158s] -- Up-to-date symlink: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description/environment/path.sh
+[0.158s] -- Up-to-date symlink: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description/environment/path.dsv
+[0.158s] -- Up-to-date symlink: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description/local_setup.bash
+[0.159s] -- Up-to-date symlink: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description/local_setup.sh
+[0.159s] -- Up-to-date symlink: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description/local_setup.zsh
+[0.159s] -- Up-to-date symlink: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description/local_setup.dsv
+[0.159s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description/package.dsv
+[0.167s] -- Up-to-date symlink: /home/om/parrot_ws/src/install/parrot_v1_description/share/ament_index/resource_index/packages/parrot_v1_description
+[0.167s] -- Up-to-date symlink: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description/cmake/parrot_v1_descriptionConfig.cmake
+[0.167s] -- Up-to-date symlink: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description/cmake/parrot_v1_descriptionConfig-version.cmake
+[0.167s] -- Up-to-date symlink: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description/package.xml
+[0.169s] Invoked command in '/home/om/parrot_ws/src/build/parrot_v1_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/ros2_ws/install/turtlesim_catch_them_all:/home/om/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/om/parrot_ws/src/build/parrot_v1_description

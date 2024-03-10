@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="robot_name">
+
+    <xacro:property name="effort" value="30"/>
+    <xacro:property name="velocity" value="10"/>
+
+    <xacro:property name="link_length" value="0.66" />
+
+    <xacro:property name="gripper_x" value="0.18"/>
+    <xacro:property name="gripper_y" value="0.45"/>
+    <xacro:property name="gripper_z" value="1.81"/>
+
+    <xacro:property name="link_origin_x" value="-0.1"/>
+    <xacro:property name="link_origin_y" value="-0.098"/>
+
+    <link name="base_footprint" />
+
+    <link name="base_link">
+        <visual>
+            <geometry>
+                <!-- <box size="1.0 1.0 1.0"/> -->
+                <!-- <mesh filename="package://parrot_v1_description/meshes/joint_1_parrot.dae" scale="0.01 0.01 0.01"/> -->
+                <mesh filename="package://parrot_v1_description/meshes/base_parrot.dae" scale="0.01 0.01 0.01"/>
+            </geometry>
+            <origin xyz="${link_origin_x} ${link_origin_y} 0.34" rpy="0 0 0" />
+        </visual>
+    </link>
+
+    <link name="link_1">
+        <visual>
+            <geometry>
+                <mesh filename="package://parrot_v1_description/meshes/joint_1_parrot.dae" scale="0.01 0.01 0.01"/>
+            </geometry>
+            <origin xyz="${link_origin_x} ${link_origin_y} -0.14" rpy="0 0 0" />
+        </visual>
+    </link>
+
+    <link name="link_2">
+        <visual>
+            <geometry>
+                <mesh filename="package://parrot_v1_description/meshes/joint_2_parrot.dae" scale="0.01 0.01 0.01"/>
+            </geometry>
+            <origin xyz="${link_origin_x} ${link_origin_y} -0.5725" rpy="0 0 0" />
+        </visual>
+    </link>
+
+    <link name="link_3">
+        <visual>
+            <geometry>
+                <mesh filename="package://parrot_v1_description/meshes/joint_3_parrot.dae" scale="0.01 0.01 0.01"/>
+            </geometry>
+            <origin xyz="${link_origin_x} ${link_origin_y} -1.245" rpy="0 0 0" />
+        </visual>
+    </link>
+
+    <link name="link_4">
+        <visual>
+            <geometry>
+                <mesh filename="package://parrot_v1_description/meshes/joint_4_parrot.dae" scale="0.01 0.01 0.01"/>
+            </geometry>
+            <origin xyz="${link_origin_x} ${link_origin_y} -1.92" rpy="0 0 0" />        
+        </visual>
+    </link>
+
+    <link name="gripper_dynamic_link">
+        <visual>
+            <geometry>
+                <mesh filename="package://parrot_v1_description/meshes/dynamic_gripper_parrot.dae" scale="0.01 0.01 0.01"/>
+            </geometry>
+            <!-- 0.005 - x coords to avoid collision of gripper static and dynamic parts during prismatic motion -->
+            <origin xyz="-0.02 ${gripper_y} ${gripper_z - 0.08}" rpy="0 ${-pi /2} ${pi}" />        
+        </visual>
+    </link>
+
+    <link name="gripper_static_link">
+        <visual>
+            <geometry>
+                <mesh filename="package://parrot_v1_description/meshes/static_gripper_parrot.dae" scale="0.01 0.01 0.01"/>
+            </geometry>
+            <origin xyz="${gripper_x} ${gripper_y} ${gripper_z}" rpy="0 ${-pi /2} ${pi}" />        
+        </visual>
+    </link>
+
+
+    <joint name="base_link_base_footprint_joint" type="fixed">
+        <parent link="base_footprint" />
+        <child link="base_link" />
+        <origin xyz="0 0 0" rpy="0 0 0" />
+    </joint> 
+
+    <joint name="joint_1" type="revolute">
+        <parent link="base_link" />
+        <child link="link_1" />
+        <origin xyz="0 0 0.48" rpy="0 0 0" />
+        <axis xyz="0 0 1"/>
+        <limit lower="${pi /2}" upper="${-pi /2}" effort="${effort}" velocity="${velocity}"/>
+    </joint> 
+
+    <joint name="joint_2" type="revolute">
+        <parent link="link_1" />
+        <child link="link_2" />
+        <origin xyz="0 0 0.43" rpy="0 0 0" />
+        <axis xyz="1 0 0"/>
+        <limit lower="${pi /2}" upper="${-pi /2}" effort="${effort}" velocity="${velocity}"/>
+    </joint> 
+
+    <joint name="joint_3" type="revolute">
+        <parent link="link_2" />
+        <child link="link_3" />
+        <origin xyz="0 0 ${link_length}" rpy="0 0 0" />
+        <axis xyz="1 0 0"/>
+        <limit lower="${pi /2}" upper="${-pi /2}" effort="${effort}" velocity="${velocity}"/>
+    </joint>
+    
+    <joint name="joint_4" type="revolute">
+        <parent link="link_3" />
+        <child link="link_4" />
+        <origin xyz="0 0 ${link_length}" rpy="0 0 0" />
+        <axis xyz="1 0 0"/>
+        <limit lower="${pi /2}" upper="${-pi /2}" effort="${effort}" velocity="${velocity}"/>
+    </joint>
+    
+    <joint name="link_4_gripper_static_link_joint" type="fixed">
+        <parent link="link_4" />
+        <child link="gripper_static_link" />
+        <origin xyz="0 0 0.5" rpy="0 0 0" />
+    </joint>
+    
+    <joint name="link_4_gripper_dynamic_link_joint" type="prismatic">
+        <parent link="link_4" />
+        <child link="gripper_dynamic_link" />
+        <origin xyz="0.198 -0.01 0.578" rpy="0 0 0" />
+        <axis xyz="1 0 0"/>
+        <limit lower="-0.135" upper="0" effort="${effort}" velocity="${velocity}"/>
+    </joint>
+
+</robot>

@@ -1,0 +1,37 @@
+-- Install configuration: ""
+-- Up-to-date: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//urdf
+-- Up-to-date: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//urdf/parrot_v1_main.urdf
+-- Up-to-date: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//meshes
+-- Up-to-date: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//meshes/joint_2_parrot.dae
+-- Up-to-date: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//meshes/base_parrot.dae
+-- Up-to-date: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//meshes/parrot_test.dae
+-- Up-to-date: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//meshes/joint_1_parrot.dae
+-- Up-to-date: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//meshes/joint_4_parrot.dae
+-- Up-to-date: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//meshes/stl_parrot
+-- Up-to-date: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//meshes/stl_parrot/gripper_static_parrot.stl
+-- Up-to-date: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//meshes/stl_parrot/joint_2_parrot.stl
+-- Up-to-date: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//meshes/stl_parrot/base_parrot.stl
+-- Up-to-date: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//meshes/stl_parrot/joint_3_parrot.stl
+-- Up-to-date: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//meshes/stl_parrot/gripper_dynamic_parrot.stl
+-- Up-to-date: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//meshes/stl_parrot/joint_4_parrot.stl
+-- Up-to-date: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//meshes/stl_parrot/joint_1_parrot.stl
+-- Up-to-date: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//meshes/base_parrot (1).dae
+-- Up-to-date: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//meshes/gripper_dynamic_parrot.dae
+-- Up-to-date: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//meshes/gripper_static_parrot.dae
+-- Up-to-date: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//meshes/ImageToStl.com_base_parrot.dae
+-- Up-to-date: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//meshes/joint_3_parrot.dae
+-- Up-to-date: /home/om/parrot_ws/src/install/parrot_v1_description/share/ament_index/resource_index/package_run_dependencies/parrot_v1_description
+-- Up-to-date: /home/om/parrot_ws/src/install/parrot_v1_description/share/ament_index/resource_index/parent_prefix_path/parrot_v1_description
+-- Up-to-date: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description/environment/ament_prefix_path.sh
+-- Up-to-date: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description/environment/path.sh
+-- Up-to-date: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description/environment/path.dsv
+-- Up-to-date: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description/local_setup.bash
+-- Up-to-date: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description/local_setup.sh
+-- Up-to-date: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description/local_setup.zsh
+-- Up-to-date: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description/local_setup.dsv
+-- Installing: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description/package.dsv
+-- Up-to-date: /home/om/parrot_ws/src/install/parrot_v1_description/share/ament_index/resource_index/packages/parrot_v1_description
+-- Up-to-date: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description/cmake/parrot_v1_descriptionConfig.cmake
+-- Up-to-date: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description/cmake/parrot_v1_descriptionConfig-version.cmake
+-- Up-to-date: /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description/package.xml
